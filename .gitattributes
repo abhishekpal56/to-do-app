@@ -1,2 +1,8 @@
+# Enforce LF line endings for text files
 * text=auto
-*.json text eol=lf
+
+# Specific files to enforce LF
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+.gitignore text eol=lf
